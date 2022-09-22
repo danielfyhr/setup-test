@@ -14,5 +14,6 @@ jobs:
       - name: Run script
         run: |
           echo "hello world"
-          ./setup.sh
+          chmod +x setup.sh
+          setup.sh
           echo "after running sh"
