@@ -14,3 +14,5 @@ jobs:
       - name: Run script
         run: |
           echo "hello world"
+          ./setup.sh
+          echo "after running sh"
